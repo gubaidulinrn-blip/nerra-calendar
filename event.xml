@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/event" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp" android:paddingTop="4dp" android:paddingBottom="4dp" android:orientation="horizontal" android:gravity="center_vertical" android:background="@android:color/transparent">
+    <TextView android:id="@+id/marker" android:layout_width="14dp" android:layout_height="wrap_content" android:text="●" android:textSize="10sp"/>
+    <TextView android:id="@+id/time" android:layout_width="68dp" android:layout_height="wrap_content" android:textSize="11sp"/>
+    <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:textSize="14sp"/>
+</LinearLayout>
